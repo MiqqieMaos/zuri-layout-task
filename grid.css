@@ -1,0 +1,76 @@
+header a {
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  grid-auto-rows: minmax(450px, auto);
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.card {
+  padding: 25px 40px;
+  height: 450px;
+}
+.card:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+.card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.card:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  font-weight: 700;
+}
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 42%;
+  cursor: pointer;
+}
+#sedanBtn {
+  color: hsl(31, 77%, 52%);
+}
+#sedanBtn:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+#suvBtn {
+  color: hsl(184, 100%, 22%);
+}
+#suvBtn:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+#luxuryBtn {
+  color: hsl(179, 100%, 13%);
+}
+#luxuryBtn:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
