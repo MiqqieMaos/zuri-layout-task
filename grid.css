@@ -8,7 +8,7 @@ main {
   grid-auto-rows: minmax(450px, auto);
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .card {
   padding: 25px 40px;
